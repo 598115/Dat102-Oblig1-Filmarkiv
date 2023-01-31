@@ -56,7 +56,7 @@ public class Tekstgrensesnitt {
 		
 	}
 	// Skrive ut en enkel statistikk som inneholder antall Filmer totalt
-	// og hvor mange det er i hver sjanger
+	// og hvor mange det er i hver sjanger	
 	public void skrivUtStatistikk(FilmarkivADT filma) {
 	
 	String statistikk = "\nAntall filmer: " + filma.antall() + "\n" +	
@@ -67,5 +67,5 @@ public class Tekstgrensesnitt {
 	System.out.println(statistikk);	
 		
 	}
-	// … Ev. andre metoder
+	
 }// Class

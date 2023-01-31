@@ -3,7 +3,7 @@ package no.hvl.data102.classes;
 
 import no.hvl.data102.adt.FilmarkivADT;
 
-public class Filmarkiv2 implements FilmarkivADT { //Ferdig
+public class Filmarkiv2 implements FilmarkivADT { //Ferdig//
 
 	private LinearNode<Film> start;
 	private int antall;
@@ -166,10 +166,8 @@ if (erTom()) { throw new NullPointerException("Arkivet er tomt");}
 	  
 	  if(temp.getElement().getSjanger() == sjanger) {
 		  antall++;
-	  }
-      if (temp.getNeste() != null) {  
-	      temp = temp.getNeste();
-      }
+	  }      
+      temp = temp.getNeste();      
   }
    return antall; 
   }
